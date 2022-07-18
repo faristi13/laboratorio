@@ -3,14 +3,14 @@ airsensor = function () {
 
     return {
       
-        pm10TSA: getRandomInt(0, 1000),
-        pm25TSA:getRandomInt(0, 1000),
-        pm1TSA:getRandomInt(0, 1000),
-        so2TSA:getRandomInt(0, 20),
-        no2TSA:getRandomInt(0, 20),
-        co2TSA:getRandomInt(0, 5000),
-        coTSA:getRandomInt(0,1000),
-        o3TSA:getRandomInt(0, 20)
+        pm10TSA: getRandomInt(30, 154),
+        pm25TSA:getRandomInt(8, 37),
+        pm1TSA:getRandomInt(5, 12),
+        so2TSA:getRandomInt(60, 197),
+        no2TSA:getRandomInt(30, 189),
+        co2TSA:getRandomInt(1000, 10200),
+        coTSA:getRandomInt(1000,10200),
+        o3TSA:getRandomInt(50, 38)
        
     };
 }

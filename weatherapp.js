@@ -118,7 +118,7 @@ client.on('connect', () => {
     //     DISK: ${chalk.yellow('70%')}
     //  `);
 
-  }, 500);
+  }, 1800000);
 
 
 

@@ -3,14 +3,14 @@ weatherStation = function () {
 
     return {
       
-        temperature: getRandomInt(0, 60),
-        relativeHumidity:getRandomInt(25, 90),
-        precipitation:getRandomInt(0, 10000),
-        preciptatatioIntensity:getRandomInt(0, 300),
-        windSpeed:getRandomInt(0, 20),
+        temperature: getRandomInt(18, 32),
+        relativeHumidity:getRandomInt(75, 85),
+        precipitation:getRandomInt(5, 180),
+        preciptatatioIntensity:getRandomInt(0, 3600),
+        windSpeed:getRandomInt(0, 15),
         windDirection:getRandomInt(0, 360),
-        solarRadiation:getRandomInt(0,1800),
-        sunshineDuration:getRandomInt(1000, 3000)
+        solarRadiation:getRandomInt(0,6500),
+        sunshineDuration:getRandomInt(50, 270)
        
     };
 }
